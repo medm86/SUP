@@ -1,0 +1,27 @@
+@startuml v8_Report
+
+sprite $Report [16x16/color]  {
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzj>WOW;WNWNWNWNW;aerRzzzzzzzz
+zzzzWOvizzvzvzvzvzzzefaerRzzzzzz
+zzzzWNzzivvizzzzzzzzW;S:aerRzzzz
+zzzzWNzzWNvizizizzzzj>aeefWOvizz
+zzzzWNzzaevixqxqzzzzzzzzzzevn?zz
+zzzzWNzzavvRwlwWviT-Wqzzzzevn?zz
+zzzzWNzzavvRwlwnvi<WGGvyvzevn?zz
+zzzzWNzzavziwlwWzz<V@_zzzzevn?zz
+zzzzWNzza:v>oVsWrQ<G@#vizzevn?zz
+zzzzWNzzi:a:a:aNaeaNaNiwzzevn?zz
+zzzzWNzzzzzzzzzzzzzzzzzzzzevn?zz
+zzzzWNzzzzzzzzzzzzzzzzzzzzevn?zz
+zzzzWOvizzzzzzzzzzzzzzzzvievnRzz
+zzzzj>WOW;WNWNWNWNWNWNW;WOj>zzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+}
+
+!define v8_Report(_alias) ENTITY(Report,_alias)
+!define v8_Report(_alias, _label) ENTITY(Report,_alias,_label)
+!define _Отчет(_alias) ENTITY(Report,_alias)
+!define _Отчет(_alias, _label) ENTITY(Report,_alias,_label)
+
+@enduml

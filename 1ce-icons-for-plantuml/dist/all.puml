@@ -8,5 +8,10 @@
 !include v8_DefinedTypes.puml
 !include v8_Enum.puml
 !include v8_Form.puml
+!include v8_Processing.puml
+!include v8_RoutineTask.puml
+!include v8_CommonModule.puml
+!include v8_Report.puml
+!include v8_Subsystem.puml
 
 @enduml

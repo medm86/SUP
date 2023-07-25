@@ -1,0 +1,27 @@
+@startuml v8_Subsystem
+
+sprite $Subsystem [16x16/color] {
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!hkhkhkhkhkhk!!!!!!zzzzzzzz
+!!!!!!hkykykykykhk!!!!!!zzzzzzzz
+!!!!!!hkhkhkhkhkhk!!!!!!zzzzzzzz
+!!!!!!!!!!!!!!!!!!!!!!!!zzzzzzzz
+!!!!!!!!!!!!!!!!!!!!!!!!zzzzzzzz
+!!!!!!!!!!!!!!!!!!!!!!!!zzzzzzzz
+hkhkhkhkhkhk!!hkhkhkhkhkhk!!!!!!
+hkykykykykhk!!hkykykykykhk!!!!!!
+hkhkhkhkhkhk!!hkhkhkhkhkhk!!!!!!
+zzzzzzzz!!!!!!!!!!!!!!!!!!!!!!!!
+zzzzzzzz!!!!!!!!!!!!!!!!!!!!!!!!
+zzzzzzzz!!!!!!!!!!!!!!!!!!!!!!!!
+zzzzzzhkhkhkhkhkhk!!hkhkhkhkhkhk
+zzzzzzhkykykykykhk!!hkykykykykhk
+zzzzzzhkhkhkhkhkhk!!hkhkhkhkhkhk
+}
+
+!define v8_Subsystem(_alias) ENTITY(Subsystem,_alias)
+!define v8_Subsystem(_alias, _label) ENTITY(Subsystem,_alias,_label)
+!define _Подсистема(_alias) ENTITY(Subsystem,_alias)
+!define _Подсистема(_alias, _label) ENTITY(Subsystem,_alias,_label)
+
+@enduml

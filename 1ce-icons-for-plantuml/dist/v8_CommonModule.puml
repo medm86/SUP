@@ -1,0 +1,27 @@
+@startuml v8_CommonModule
+
+sprite $CommonModule [16x16/color] {
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+GSGSGSGSGSGSGSGSGSGSGSGSGSGSGSGS
+GST^X^X^X^T^SySyOyOyKyGz^^-^-^GS
+GROiOiOiOiOiKhKhKhKRKRKRGQGQGQ*v
+ewzzzzzzzzzzzzzzzzzzzzzzzzzzzzew
+ewzzzzj?zySPSPSPSPSPSPSPj?zzzzew
+ewzzzzzzzzzzzzzzzzzzzzzzzzzzzzew
+ewzzzzydxqxqxqzRxqxqxqxqzRzzzzew
+ewzzzzzzzzzzzzzzzzzzzzzzzzzzzzew
+evzzvivivitptpvQW-vQtptpvivizzev
+evviviviviviviviviviviviviviviev
+efviviviviviVrVrVrn>Vrn>eevivief
+afviviviviviviviviviviviviviviaf
+aeviviviviviviviviviviviviviviae
+WOWOWOWOWOWOWOWOWOWOWOWOWOWOWOWO
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+}
+
+!define v8_CommonModule(_alias) ENTITY(CommonModule,_alias)
+!define v8_CommonModule(_alias, _label) ENTITY(CommonModule,_alias,_label)
+!define _ОбщийМодуль(_alias) ENTITY(CommonModule,_alias)
+!define _ОбщийМодуль(_alias, _label) ENTITY(CommonModule,_alias,_label)
+
+@enduml

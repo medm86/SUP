@@ -1,0 +1,27 @@
+@startuml v8_RoutineTask
+
+sprite $RoutineTask [16x16/color] {
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzn@agWQWQagn@zzzzzzzzzz
+zzzzzznSSQexrSvznSSQSQSQnSzzzzzz
+zzzznSWgrizzzjyNxHS=S>SQSQnSzzzz
+zzzzSQrivzvzvzzin>S>S>S>SQSQzzzz
+zzn@exvzvzvzvzvznSS>S>S>S>SQn@zz
+zzagrSvivjvjvjvjnSS>S>S>S=SQagzz
+zzSQvjxHvRvjvjvjS>n@n@mwxHn@SQzz
+zzSQvjuNvSvjvjvjvjvjvjvSuNrjWQzz
+zzagnSvjrjrjrjrjrjrjrjrjrjnSagzz
+zzn@exrjrjrjrjrjrjrjrjrjrjexn@zz
+zzzzSQnSrjrjrjrSr?rjrjrjnSSQzzzz
+zzzznSWgnSrjrTuNxIrSrjnSWgnSzzzz
+zzzzzznSSQexnSrTrTnSexSQnSzzzzzz
+zzzzzzzzzzn?agWQWQagn?zzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+}
+
+!define v8_RoutineTask(_alias) ENTITY(RoutineTask,_alias)
+!define v8_RoutineTask(_alias, _label) ENTITY(RoutineTask,_alias,_label)
+!define _РегламентноеЗадание(_alias) ENTITY(RoutineTask,_alias)
+!define _РегламентноеЗадание(_alias, _label) ENTITY(RoutineTask,_alias,_label)
+
+@enduml

@@ -1,0 +1,29 @@
+@startuml v8_processing
+
+sprite $processing [16x16/color] {
+zzzzzzzzzzzzzzzzzzrPmrrPzzzzzzzz
+zzzzzzzzzzzzzzzzr<iYv%iYr<zzzzzz
+zzzzzzzzzzzzzzr<iYv%zHv%iYr<zzzz
+zzzzzzzzzzzzrPiYv%zHzHzHv%iYrPzz
+zzzzzzzz!!ee!!a$N~zHzHzHzHv%mrzz
+zzzzzzzzeezzrPiYv%zHzHzHv%iYrPzz
+zzzzzzzz!!zzzzr<iYv%zHv%iYr<zzzz
+zzzzzzzzeezzzzzzr<iYv%iYr<zzzzzz
+nRaeW;W;!!W;W;aenRrPmrrPzzzzzzzz
+aeaxb@b@O<b@b@axaezzzzzzzzzzzzzz
+W;b@~K!!!!!!~Kb@W;zzzzzzzzzzzzzz
+W;b@b@:o!!:ob@b@W;zzzzzzzzzzzzzz
+W;b@b@Wx>oWxb@b@W;zzzzzzzzzzzzzz
+aeaxb@b@b@b@b@axaezzzzzzzzzzzzzz
+nRaeW;W;W;W;W;aenRzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+}
+
+
+
+!define v8_processing(_alias) ENTITY(processing,_alias)
+!define v8_processing(_alias, _label) ENTITY(processing,_alias,_label)
+!define _Обработка(_alias) ENTITY(processing,_alias)
+!define _Обработка(_alias, _label) ENTITY(processing,_alias,_label)
+
+@enduml
